@@ -1,0 +1,28 @@
+# Directorios de entorno virtual
+venv/
+.venv/
+
+# Archivos de logs
+logs/
+*.log
+
+# Archivos de datos generados o de salida
+data/output/
+*.csv
+*.xlsx
+*.pdf
+
+# Archivos de configuración con credenciales (¡MUY IMPORTANTE!)
+.env
+*.env
+config/.env
+
+# Cache de Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.mypy_cache/
+
+# IDE files
+.vscode/
+.idea/
